@@ -1,0 +1,29 @@
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+    border:1px dashed #177ac1;
+    border-radius:1%;
+    margin:2% 0%;
+    padding:2%;
+    font-family: 'Muli';
+}
+
+div strong {
+    font-family:'Muli';
+}
+
+div i{
+    cursor: pointer;
+}
+
+.text{
+    font-family: 'Muli';
+}
+.check_text{
+    border:2px solid white;
+    width:20px;
+    height:20px;
+    color:white;
+}

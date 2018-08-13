@@ -1,0 +1,138 @@
+.fieldcontainer{
+    display: flex;
+    text-align:center;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin:5%;
+    font-family: 'Muli-Bold';
+}
+
+.name_input,.number_input{
+    border:none;
+    outline:none;
+    border-bottom:2px solid #000000;
+    padding-bottom:5%;
+    font-family:'Muli-Bold';
+    background-color:inherit;
+}
+
+input::placeholder{
+    font-family: 'Muli';
+}
+
+.btn{
+    font-family:'Muli';
+    color: #000000; 
+    border: 2px solid #8c8aa7;
+    padding:8%;
+    text-align:center;
+    cursor: pointer;
+    outline:none; 
+    border-radius: 5%;
+    width:115%;  
+}
+
+.contactcontainer{
+    margin:1% 10%;
+    font-family:'Muli';
+}
+
+.contactinfo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact_box{
+    display:flex;
+    flex-direction: column;
+    margin:4% 0%;
+ }
+
+ .modal {
+    /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal_content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.updatebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:5% 0%;
+}
+.text{
+    font-family: 'Muli';
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    color:#888;
+}
+
+.update_inputs{
+    border:2px solid #888;
+    border-radius:5%;
+    padding:0.5%;
+    outline:none;
+    margin:0% 2%;
+}
+
+.bttn{
+    font-family:'Muli';
+    color: #000000; 
+    border: 2px solid #8c8aa7;
+    text-align:center;
+    cursor: pointer;
+    outline:none; 
+    border-radius: 5%;
+    padding:1%;
+    margin:0% 2%;
+}
+.btn_div{
+    display:flex;
+    justify-content: center;
+}
+.alert_tag{
+    margin:auto;
+    font-family:'Muli-Bold';
+    text-align:center;
+    color:tomato;
+}
+.delete_text{
+    font-family:'Muli';
+    cursor:pointer;
+}
+.delete_text i {
+    color:cornflowerblue;
+}

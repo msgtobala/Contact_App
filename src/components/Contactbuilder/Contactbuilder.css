@@ -1,0 +1,15 @@
+
+
+.contact_box{
+    width:100%;
+    border:1px dashed #ff4d63;
+    border-radius:5%;
+    margin:3% 0%;
+    display:flex;
+}
+.notext{
+    font-family:'Muli';
+    margin: auto;
+    text-align:center;
+    font-size:25px;
+}
